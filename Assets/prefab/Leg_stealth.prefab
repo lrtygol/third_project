@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2512604949561864013}
   - component: {fileID: 2336278065694270157}
   m_Layer: 0
-  m_Name: Leg
+  m_Name: Leg_stealth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63,7 +63,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ff0143a2a3826bb4ebca348bbbc31775, type: 2}
+  - {fileID: 2100000, guid: 29ca075cdf3515a40880a8c28e2890d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

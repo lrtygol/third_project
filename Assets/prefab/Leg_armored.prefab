@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2512604949561864013}
   - component: {fileID: 2336278065694270157}
   m_Layer: 0
-  m_Name: Leg
+  m_Name: Leg_armored
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

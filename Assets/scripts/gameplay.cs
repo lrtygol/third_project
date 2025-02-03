@@ -6,7 +6,7 @@ public class gameplay : MonoBehaviour
 {
     public float speed = 10f;
     
-
+    
     
     void Update()
     {

@@ -28,6 +28,5 @@ public class gunControl : MonoBehaviour
         var yQuaternion = Quaternion.AngleAxis(Rotation.y, Vector3.left);
         Debug.Log(yQuaternion);
         transform.localRotation = xQuaternion * yQuaternion;
-
     }
 }

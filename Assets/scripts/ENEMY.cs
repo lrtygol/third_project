@@ -15,6 +15,10 @@ public class ENEMY : MonoBehaviour
 
     void Update()
     {
+        if(transform.position.z<54)
+        {
+            Destroy(gameObject);
+        }
         transform.LookAt(player);
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }

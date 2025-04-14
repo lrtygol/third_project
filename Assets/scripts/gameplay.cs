@@ -25,7 +25,7 @@ public class gameplay : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("OnCollisionEnter");
+        
         if (other.gameObject.CompareTag("mimic"))
         {
             Destroy(other.gameObject.transform.parent.gameObject);
